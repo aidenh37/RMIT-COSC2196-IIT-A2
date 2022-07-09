@@ -53,14 +53,17 @@ html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
     color: white;
   }
 
-  /* centering logo */
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+ 
+/* banner logo */
 
+.banner-logo {
+  float:center;
+  padding: 20px 5px 20px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
   
 /* Colours */
