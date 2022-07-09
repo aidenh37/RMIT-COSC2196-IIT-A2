@@ -53,6 +53,16 @@ html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
     color: white;
   }
 
+  /* centering logo */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  
 /* Colours */
 .css-page-title{color:rgb(57, 30, 212)!important;background-color:#f018d3!important}
 .css-sidebar-color{color:rgb(20, 73, 187)!important;background-color:#f70000!important}
