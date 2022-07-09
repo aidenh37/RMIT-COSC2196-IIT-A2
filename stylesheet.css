@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica;
-    background-color: whitesmoke;
+    background-color: white;
 }
 h1 {
     font-family: Helvetica;
@@ -16,7 +16,7 @@ h3 {
 }
 p {
     font-family: Helvetica;
-    color: darkslategray;
+    color: rgb(0, 0, 0);
     font-size: 120%;
 }
 
@@ -27,17 +27,43 @@ p {
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
 
+/* top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #293592;
+    color: white;
+  }
+
 /* Colours */
-.css-page-title{color:#fff!important;background-color:#333aff!important}
-.css-sidebar-color{color:#000!important;background-color:#cfcfcf!important}
+.css-page-title{color:rgb(57, 30, 212)!important;background-color:#f018d3!important}
+.css-sidebar-color{color:rgb(20, 73, 187)!important;background-color:#f70000!important}
 
 /* Side bar - Side bar for navigation*/
-.css-sidebar{height:100%;width:15%;background-color:#fff;position:fixed!important;z-index:1;overflow:auto;}
+.css-sidebar{height:100%;width:15%;background-color:rgb(204, 29, 29);position:fixed!important;z-index:1;overflow:auto;}
 .css-bar-block{padding:8px 16px;text-align:center}
 .css-bar-item{padding:8px 16px;text-align:left;width:auto;border:none;display:block;outline:0;white-space:normal;font-size:120%}
 
 /* Button - Sets button colour behavour*/
-.css-button:hover{color:#c3c3c3!important;background-color:#4a4a4a!important}
+.css-button:hover{color:#ffffff!important;background-color:#ffffff!important}
 
 /* Container - Sets a container margin and padding*/
 .css-container,.css-panel{padding:0.01em 16px}.css-panel{margin-top:16px;margin-bottom:16px}
