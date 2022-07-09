@@ -60,6 +60,19 @@ html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
 }
 
 /* Dropdown button */
+.dropdown .dropbtn-active {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  background-color: #293592;
+  
+}
+
 .dropdown .dropbtn {
   font-size: 16px;
   border: none;
@@ -69,8 +82,8 @@ html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  
 }
-
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: grey;
