@@ -106,6 +106,18 @@ html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
   display: block;
 }
 
+.arrow-down {
+  width: 0; 
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgb(255, 255, 255);
+  position:absolute;
+  margin-top: 4px;
+  margin-left: -16px;
+}
+
+
 /* banner logo */
 
 .banner-logo {
