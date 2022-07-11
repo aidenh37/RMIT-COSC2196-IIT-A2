@@ -39,6 +39,10 @@ p {
   text-indent:9%
 }
 
+.figure-style{
+  float: right;
+  width:25%;
+}
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
 
