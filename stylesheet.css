@@ -22,8 +22,6 @@ h5 {
   font-family: Helvetica;
   font-size: 100%;
 }
-
-
 p {
     font-family: Helvetica;
     color: rgb(0, 0, 0);
@@ -33,6 +31,15 @@ p {
 .maintext {
     margin-left:15%
 }
+
+.indent {
+  text-indent:9%
+}
+
+
+
+
+
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
