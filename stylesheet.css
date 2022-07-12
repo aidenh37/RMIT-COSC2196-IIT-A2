@@ -155,11 +155,11 @@ html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
 
 .banner-logo {
   float:center;
-  padding: 20px 5px 20px 5px;
+  padding: 0px 0px 0px 0px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
   
