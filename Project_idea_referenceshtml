@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<title>Assessment 2, In control, Totally.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href = "stylesheet.css">
+
+<!--top graphic-->
+<head><img src="images/In_Control_Totally_3.png" alt = "In control totally logo" class = "banner-logo">
+
+<!--top navigation bar-->
+  
+<div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <!--Team profile drop down---->
+    <div class = "dropdown">
+        <button class = "dropbtn">Team Profiles&nbsp&nbsp&nbsp&nbsp&nbsp
+            
+            <i class = "arrow-down"></i>
+        </button>
+        <div class = "dropdown-content">
+            <a href = "Adam_puckeridge.html">Adam Puckeridge</a>
+            <a href = "Aiden_howlett.html">Aiden Howlett</a>
+            <a href = "Helen_Andrews.html">Helen Andrews</a>
+            <a href = "Joshua_McCorkell.html">Joshua McCorkell</a>
+            <a href = "Robert_Longmore.html">Robert Longmore</a>
+            <a href = "Sean_De_Chavez.html">Sean De Chavez</a>
+            
+        </div> 
+    </div>
+    <a href="Ideal_jobs.html">Ideal Jobs</a>
+    <a href="Tools.html">Tools</a>
+    <a href="Industry_data.html">Industry Data</a>
+    <a href="IT_work.html">IT Work</a>
+    <!--IT technologies dropdown-->
+    <div class = "dropdown">
+        <button class = "dropbtn">IT Technologies&nbsp&nbsp&nbsp&nbsp&nbsp
+            
+            <i class = "arrow-down"></i>
+        </button>
+        <div class = "dropdown-content">
+            <a href = "IT_tech_cybersecurity.html">Cyber Security</a>
+            <a href = "IT_tech_machinelearning.html">Machine Learning</a>
+           
+        </div> 
+    </div>
+
+    <a href="Project_idea.html">Project Ideas</a>
+    <div class = "dropdown">
+        <button class = "dropbtn">References&nbsp&nbsp&nbsp&nbsp&nbsp
+            
+            <i class = "arrow-down"></i>
+        </button>
+        <div class = "dropdown-content">
+            <a href = "IT_tech_cybersecurity_references.html">Cyber Security</a>
+            <a href = "IT_tech_machinelearning_references.html">Machine Learning</a>
+            <a href = "Industry_data_references.html">Industry Data</a>
+        </div> 
+    </div>
+
+
+    <a href="Feedback.html">Feedback</a>
+    <a href="Group_reflection.html">Group Reflection</a></h2>
+
+  </div>
+
+
+<!-- page heading-->
+    <div class = "main-text">
+
+      <h2>Project Idea</h2>
+    
+    <h3>everyone</h3>
+    <hr>
+    
+    </div>
+
+<!--main text-->
+<body class = "main-text">
+    <div class = "main-text">
+<p><b>Overview</b></p>
+
+<img src = "images/Cyclopedia_2.png" alt = "Cyclopedia logo" class = "figure-style" style = "width:350px;height:300px;">
+
+<p>In this ongoing climate and - more recently, health – emergency, more commuters than ever are rediscovering the joy that is getting around our cities by bicycle. However, Australian cities are unfortunately lacking in safe cycling infrastructure that enables new riders to hit the streets and get where they need to go in a comfortable and timely manner. A searchable database of bicycle lanes in our cities, including photos, user reviews and condition reports would be an extremely useful tool in planning a safe commuting route on any given day. </p>
+
+<p><b>Motivation</b></p>
+<p>The primary solution for those seeking routes is to contact their local commuter cycling group for advice, followed by Google Maps – the former relying on community posts online, and the latter potentially providing incorrect, unsafe, or busy routing. Currently, motorists have access to free real-time traffic reports and routing not only with Google Maps but also government-managed resources such as Transport for NSW’s Live Traffic app – which is updated regularly with roadwork, incidents and more by staff at the Transport Management Centre in Sydney. 
+
+    A searchable database of bicycle lanes with crowdsourced condition updates would provide a means of routing comparable to using Transport for NSW’s Live Traffic app and make bicycle commuting a more attractive option</p>
+
+<p><b>Description</b></p>
+<p>In the project’s final form, a user will be able to visit a website or download a mobile phone application to access a searchable database of bicycle lanes or view them on a map. 
+
+    Bicycle lanes will be categorised based on several factors, such as: </p>
+    <ul>
+        <li>Ride quality (surface type; maintenance issues) </li>
+        <li>Safety (lighting; visibility to other road users) </li>
+        <li>Positioning (off-road cycleway in a quiet park; or narrow lane next to car doors?)  </li>
+        <li>Hazards (construction work; slippery leaves in Autumn)  </li>
+        <li>Priority given (Do I need to stop frequently?) </li>
+        <li>Speed (How fast do I feel comfortable riding?) </li>
+        <li>Width (Australian standard or Dutch standard?) </li>
+    </ul>
+    <p>Users will not only be able to view this data – they will have the opportunity to check-in to bicycle lanes and leave a short review with real-time ratings for key data metrics as above. This functionality will be similar to the website and app PlugShare, which enables electric vehicle owners to find chargers, check-in when in use and leave a review or even a simple note advising other EV owners the current status of a given charging station. </p>
+
+    <p>Crowdsourced data could potentially be monetised and sold onto councils and other infrastructure stakeholders such as Transport for NSW, as statistics such as those gathered by this application are extremely valuable in determining maintenance issues that otherwise go unnoticed, or where to install upgrades to the infrastructure. Data could also be used to aid step-by-step navigation with safer cycling routes to their destination. </p>
+
+    <p>There is also scope to expand the project to include other useful points of interest to bicycle riders, such as the location and availability of parking with imagery. </p>
+
+    <p><b>Tools and Technology</b></p>
+    <p>Initially, the ‘application’ may consist of a simple Google My Maps document with annotations on a map – however moving forward the application will be accessed via a web browser, or through a downloadable mobile phone application published on the Apple App Store or Google Play Store. </p>
+    
+    <p>The web application will require a modern browser such as Apple’s Safari or Google Chrome to run. The mobile phone applications will require a modern smartphone on the most recent relevant operating system to run. The mobile phone applications would make use of modern mapping APIs, using either Apple Maps or Google Maps depending on the platform, although other cross-platform alternatives exist such as OpenStreetMap or Mapbox should the need arise. </p>
+
+    <p>The application will require a cloud server to accommodate the large amount of data it is expected to host, and to handle the storage of user reviews and information. </p>
+
+    <p>To build the mobile applications, an Apple Mac computer is required for development and testing purposes on both mobile platforms. </p>
+
+
+<p><b>Skills</b></p>
+
+<p>The web application will require familiarisation with the latest web technologies such as HTML5, CSS3 and JavaScript. The iPhone application will require familiarisation with Objective-C or Swift, XCode software, and the use of Apple’s developer tools. The Android application will require familiarisation with Java, Android Studio software and the use of Google’s developer tools. The application will also require familiarisation with a cloud platform such as Amazon Web Services. </p>
+
+<p><b>Outcome</b></p>
+
+<p>The desired outcome of this application is an increased uptake of commuter cycling and a greater sense of safety given to users of the application as they would be more likely to be aware of hazards ahead of time. The data provided by users of the application could also be utilised by those who maintain the infrastructure to provide a higher quality of service to bicycle riders comparable to that experienced by motorists. </p>
+
+
+
+
+
+
+<hr>
+    </div>
+    </body>
+    <!--footer-->
+<footer>
+    <div>
+        <p><a class = "footer" href = "Adam_puckeridge.html">Adam Puckeridge</a> | 
+            <a class = "footer" href = "Aiden_howlett.html">Aiden Howlett</a> | 
+            <a class = "footer" href = "Helen_Andrews.html">Helen Andrews</a> | 
+            <a class = "footer" href = "Joshua_McCorkell.html">Joshua McCorkell</a> | 
+            <a class = "footer" href = "Robert_Longmore.html">Robert Longmore</a> | 
+            <a class = "footer" href = "Sean_De_Chavez.html">Sean De Chavez</a></p>
+        <p><a class = "footer" href ="https://github.com/aidenh37/RMIT-COSC2196-IIT-A2">Github Public Repository</a> | 
+            <a class = "footer" href = "https://aidenh37.github.io/RMIT-COSC2196-IIT-A2">Gitub Website</a></p>
+        © 2022 In Control Totally
+    </div>
+</footer>
+
+
