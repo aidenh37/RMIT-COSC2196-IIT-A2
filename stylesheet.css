@@ -40,7 +40,7 @@ p {
 }
 
 .figure-style{
-  float: center;
+  float: right;
   width:25%;
 }
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
