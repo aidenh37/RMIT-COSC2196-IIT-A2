@@ -42,6 +42,7 @@ p {
 .figure-style{
   float: right;
   border-color: #333;
+  padding: 10px;
   width: 30%;
   margin: auto;
 }
@@ -52,15 +53,6 @@ p {
   width: 40%;
   margin: auto;
 }
-
-img.one {
-  height: 170%;
-  width: 170%;
-  text-align: right;
-}
-
-
-
 
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
