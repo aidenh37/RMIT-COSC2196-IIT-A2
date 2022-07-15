@@ -41,8 +41,28 @@ p {
 
 .figure-style{
   float: right;
-  width:25%;
+  border-color: #333;
+  width: 30%;
+  margin: auto;
 }
+
+.figure-style-40{
+  float: right;
+  border-color: #333;
+  width: 40%;
+  margin: auto;
+}
+
+img.one {
+  height: 170%;
+  width: 170%;
+  text-align: right;
+}
+
+
+
+
+
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
 
