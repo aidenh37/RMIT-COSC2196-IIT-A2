@@ -54,6 +54,18 @@ p {
   margin: auto;
 }
 
+.figure-style-pd{
+  padding-top: 0px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  float: right;
+  border-color: #333;
+  width: 40%;
+  margin: auto;
+  }
+
+
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
